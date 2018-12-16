@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header id="particles-js">
+      <nav id="sec1">
+        <h1 class="logo">Codior</h1>
+        <input type="checkbox" id="nav" class="hidden"/>
+        <label for="nav" class="nav-open"><i></i><i></i><i></i></label>
+        <div class="nav-container">
+          <ul class="meniuuu">
+            <li><a href="#sec1">Home</a></li>
+            <li><a href="#sec2">About</a></li>
+            <li><a href="#sec3">Portfolio</a></li>
+            <li><a href="#sec4">Resume</a></li>
+            <li><a href="#sec5">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="btext">
+        <h2>Hello, I'm <span>Romualdas Felinskis.</span></h2>
+        <h2>I'm a junior front-end developer.</h2>
+      </div>
+    </header>
+    <section id="sec2" data-color="white" class="default_width" onclick="">
+      <h2 class="underline">About</h2>
+      <p class="about">I like to explore and learn something new with every project I work on. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+      <div class="about-icons flex">
+        <div class="flex-column slideup">
+          <i class="fas fa-tachometer-alt"></i>
+          <p>Fast load times and lag free interaction, my highest priority</p>
+        </div>
+        <div class="flex-column slideup">
+          <i class="fas fa-laptop-code"></i>
+          <p>My layouts will work on any device, big or small.</p>
+        </div>
+        <div class="flex-column slideup">
+          <i class="far fa-lightbulb"></i>
+          <p>Strong preference for easy to use, intuitive UX/UI.</p>
+        </div>
+        <div class="flex-column slideup">
+          <i class="fas fa-rocket"></i>
+          <p>Websites don't have to be static, I love making pages come to life.</p>
+        </div>
+      </div>
+      <div id="slidercontainer">
+        <div id="slide-container">
+          <div class="sliderlogo"><img src="slide1.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide2.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide3.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide4.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide5.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide6.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide7.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide8.png" width="80%" height="80%" alt=""></div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="sec3" class="default_width" data-color="#cecece" onclick="">
+      
+      <div class="project flex">
+        <img src="project1.gif" alt="">
+        <img src="project1.gif" alt="">
+        <img src="project2.gif" alt="">
+        <img src="project2.gif" alt="">
+      </div>
+      
+    </section>
+    <section id="sec4" class="default_width flex" data-color="white" onclick="">
+      <div class="resume flex-column">
+      <h1>Resume Download</h1>
+      <h3>If you're a recruiter or just interested in a hard copy of my resume as a PDF, you can download it by clicking the button below.</h3>
+      <a href="RomualdoFelinskio_CV.pdf" class="button-cv">
+        <span>Download PDF</span>
+        <svg width="13px" height="10px" viewBox="0 0 13 10">
+        <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </a>
+  </div>
+</section>
+<section id="sec5" data-color="white" onclick="">
+  <p>
+    KETVIRTASLorem ipsum dolor sit amet, consectetur adipisicing elit. Rem consectetur aliquid, adipisci, nam fugiat sunt quia cupiditate laudantium dolorem veniam, ipsam obcaecati voluptatum provident commodi sequi! Deleniti itaque sed id laboriosam officia quia at reiciendis. Sequi eum facilis excepturi, hic ipsa! Tempora ad debitis sit, dolores sunt nesciunt nam vero cumque ab earum corporis libero saepe placeat facilis autem quos accusamus! Atque saepe provident laboriosam ipsam, excepturi amet unde officiis, quos doloremque perferendis harum ea aut, distinctio molestias corrupti officia adipisci aliquam voluptatem incidunt aliquid ut consectetur. Assumenda fuga, atque deserunt adipisci quidem, minus ratione in, eligendi suscipit voluptas non!
+  </p>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
