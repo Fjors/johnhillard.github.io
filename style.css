@@ -464,20 +464,7 @@ transition: all 0.4s ease 0s;
 }
 
 @media only screen and (max-width: 420px) {
-  #particles-js{
-  background-image: url('image1.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-#sec5{
-  background-image: url('resumebg.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
+
 
 }
 @media only screen and (max-width: 550px) {
@@ -491,6 +478,14 @@ transition: all 0.4s ease 0s;
 }
 .btext{
   font-size: 3vw;  
+}
+  #particles-js{
+background-attachment: initial;
+ 
+}
+#sec5{
+background-attachment: initial;
+ 
 }
 
 }
