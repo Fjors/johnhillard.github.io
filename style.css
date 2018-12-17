@@ -323,7 +323,7 @@ nav ul li a:hover {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;*/
-  min-height: 80vh; 
+  min-height: 100vh; 
 }
 .resume{
   max-width: 700px;
@@ -463,6 +463,23 @@ background: #526E75;
 transition: all 0.4s ease 0s;
 }
 
+@media only screen and (max-width: 420px) {
+  #particles-js{
+  background-image: url('image1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#sec5{
+  background-image: url('resumebg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+}
 @media only screen and (max-width: 550px) {
 #sec5 form input{
   min-height: 40px;
@@ -601,20 +618,6 @@ transition: all 0.4s ease 0s;
 }
 .skills{
   padding: 3rem 0rem 0rem 0rem;
-}
-#particles-js{
-  background-image: url('image1.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-#sec5{
-  background-image: url('resumebg.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
 }
 }
 
