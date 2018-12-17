@@ -76,7 +76,7 @@ body {
    width: 100%;
    min-height: 75px;
    z-index: 99;
-   border-bottom: 1px solid #5A727C;
+   /*border-bottom: 1px solid #5A727C;*/
 
    /*transition: all 0.6s;*/
 }
@@ -461,6 +461,12 @@ color: white;
 background: #526E75;
 /*border-color: white;*/
 transition: all 0.4s ease 0s;
+}
+
+.footer{
+  margin-top: 7rem;
+  min-height: 40px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 420px) {
