@@ -45,7 +45,7 @@ body {
   background-image: url('image1.jpg');
   background-size: cover;
   background-position: center center;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
@@ -318,12 +318,12 @@ nav ul li a:hover {
 
 /*Resume*/
 #sec4{
-  background-image: url('resumebg.jpg');
+  /*background-image: url('resumebg.jpg');
   background-size: cover;
   background-position: center center;
-  /*background-attachment: fixed;*/
-  background-repeat: no-repeat;
-  min-height: 80vh; 
+  background-attachment: fixed;
+  background-repeat: no-repeat;*/
+  min-height: 60vh; 
 }
 .resume{
   max-width: 700px;
@@ -396,7 +396,7 @@ nav ul li a:hover {
     background-image: url('resumebg.jpg');
   background-size: cover;
   background-position: center center;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
@@ -414,7 +414,7 @@ nav ul li a:hover {
   margin: 1rem;
   min-height: 40px;
   min-width: 450px;
-   border: none;
+   border: 1px solid grey;
   background-color: transparent;
 -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
 -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
@@ -432,7 +432,7 @@ transition: all 0.5s;
   min-height: 120px;
   min-width: 450px;
   margin:1rem;
-  border: none;
+  border: 1px solid grey;
   color: black;
   background-color: transparent;
 -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.24);
@@ -476,9 +476,15 @@ transition: all 0.4s ease 0s;
   background-image: url('image1.jpg');
   background-size: cover;
   background-position: center center;
-  /*background-attachment: fixed;*/
   background-repeat: no-repeat;
-  min-height: 80vh;
+  min-height: 100vh;
+}
+#sec5{
+  background-image: url('resumebg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 .btext{
   font-size: 3vw;  
