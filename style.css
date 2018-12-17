@@ -323,7 +323,7 @@ nav ul li a:hover {
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;*/
-  min-height: 60vh; 
+  min-height: 80vh; 
 }
 .resume{
   max-width: 700px;
@@ -472,20 +472,6 @@ transition: all 0.4s ease 0s;
  min-height: 120px;
   min-width: 290px;
 }
-#particles-js{
-  background-image: url('image1.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
-#sec5{
-  background-image: url('resumebg.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-}
 .btext{
   font-size: 3vw;  
 }
@@ -615,6 +601,20 @@ transition: all 0.4s ease 0s;
 }
 .skills{
   padding: 3rem 0rem 0rem 0rem;
+}
+#particles-js{
+  background-image: url('image1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+#sec5{
+  background-image: url('resumebg.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 }
 
