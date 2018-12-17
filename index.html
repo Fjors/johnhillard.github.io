@@ -27,7 +27,7 @@
       </nav>
       <div class="btext">
         <h2>Hello, I'm <span>Romualdas Felinskis.</span></h2>
-        <h2>I'm a junior front-end developer.</h2>
+        <h2>I'm a junior Front-end web developer.</h2>
       </div>
     </header>
     <section id="sec2" data-color="white" class="default_width" onclick="">
@@ -51,47 +51,80 @@
           <p>Websites don't have to be static, I love making pages come to life.</p>
         </div>
       </div>
+        <h1 class="skills">Skills</h1>
       <div id="slidercontainer">
         <div id="slide-container">
-          <div class="sliderlogo"><img src="slide1.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide2.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide3.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide4.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide5.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide6.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide7.png" width="80%" height="80%" alt=""></div>
-          <div class="sliderlogo"><img src="slide8.png" width="80%" height="80%" alt=""></div>
+          <div class="sliderlogo"><img src="slide1.png" alt=""></div>
+          <div class="sliderlogo"><img src="slide2.png" alt=""></div>
+          <div class="sliderlogo"><img src="slide3.png" alt=""></div>
+          <div class="sliderlogo"><img src="slide4.png"  alt=""></div>
+          <div class="sliderlogo"><img src="slide5.png" alt=""></div>
+          <div class="sliderlogo"><img src="slide6.png"  alt=""></div>
+          <div class="sliderlogo"><img src="slide7.png"  alt=""></div>
+          <div class="sliderlogo"><img src="slide8.png"  alt=""></div>
+          <div class="sliderlogo"><img src="slide9.png"  alt=""></div>
+          <div class="sliderlogo"><img src="slide10.png"  alt=""></div>
         </div>
       </div>
       
     </section>
     <section id="sec3" class="default_width" data-color="#cecece" onclick="">
-      
-      <div class="project flex">
+      <h1 class="project-title">My Recent Projects</h1>
+     <!--  <div class="project flex">
         <img src="project1.gif" alt="">
         <img src="project1.gif" alt="">
         <img src="project2.gif" alt="">
         <img src="project2.gif" alt="">
-      </div>
-      
+      </div> -->
+
+    <div class="flex portfolio-container">
+    <div class="img-wrap">
+  <img class="portfolio-img" src="project1.gif" />
+  <div class="img-description-layer">
+    <p class="img-description">This image looks super neat.</p>
+  </div>
+</div>
+  <div class="img-wrap">
+  <img class="portfolio-img" src="project2.gif" />
+  <div class="img-description-layer">
+    <p class="img-description">This image looks super neat.</p>
+  </div>
+</div>
+  <div class="img-wrap">
+  <img class="portfolio-img" src="project1.gif" />
+  <div class="img-description-layer">
+    <p class="img-description">This image looks super neat.</p>
+  </div>
+</div>
+  <div class="img-wrap">
+  <img class="portfolio-img" src="project1.gif" />
+  <div class="img-description-layer">
+    <p class="img-description">This image looks super neat.</p>
+  </div>
+</div>
+</div>
+
     </section>
-    <section id="sec4" class="default_width flex" data-color="white" onclick="">
+    <section id="sec4" class="flex" data-color="#cecece" onclick="">
       <div class="resume flex-column">
-      <h1>Resume Download</h1>
-      <h3>If you're a recruiter or just interested in a hard copy of my resume as a PDF, you can download it by clicking the button below.</h3>
-      <a href="RomualdoFelinskio_CV.pdf" class="button-cv">
-        <span>Download PDF</span>
-        <svg width="13px" height="10px" viewBox="0 0 13 10">
-        <path d="M1,5 L11,5"></path>
-      <polyline points="8 1 12 5 8 9"></polyline>
-    </svg>
-  </a>
+        <h1>Resume Download</h1>
+        <h3>If you're a recruiter or just interested in a hard copy of my resume as a PDF, you can download it by clicking the button below.</h3>
+        <a href="RomualdoFelinskio_CV.pdf" class="button-cv">
+          <span>Download CV</span>
+          <svg width="13px" height="10px" viewBox="0 0 13 10">
+          <path d="M1,5 L11,5"></path>
+        <polyline points="8 1 12 5 8 9"></polyline>
+      </svg>
+    </a>
   </div>
 </section>
-<section id="sec5" data-color="white" onclick="">
-  <p>
-    KETVIRTASLorem ipsum dolor sit amet, consectetur adipisicing elit. Rem consectetur aliquid, adipisci, nam fugiat sunt quia cupiditate laudantium dolorem veniam, ipsam obcaecati voluptatum provident commodi sequi! Deleniti itaque sed id laboriosam officia quia at reiciendis. Sequi eum facilis excepturi, hic ipsa! Tempora ad debitis sit, dolores sunt nesciunt nam vero cumque ab earum corporis libero saepe placeat facilis autem quos accusamus! Atque saepe provident laboriosam ipsam, excepturi amet unde officiis, quos doloremque perferendis harum ea aut, distinctio molestias corrupti officia adipisci aliquam voluptatem incidunt aliquid ut consectetur. Assumenda fuga, atque deserunt adipisci quidem, minus ratione in, eligendi suscipit voluptas non!
-  </p>
+<section id="sec5" class="flex" data-color="white" onclick="">
+  <form method="POST" class="flex-column" action="https://formspree.io/romualdas.f@gmail.com">
+  <input type="text" name="name" placeholder="Name">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Test Message"></textarea>
+  <button type="submit">Send Message</button>
+</form>
 </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
